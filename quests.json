@@ -76,9 +76,9 @@
         "preview": false
     },
       {
-        "id": "123",
+        "id": "500",
         "config": {
-            "id": "123",
+            "id": "500",
             "config_version": 2,
             "starts_at": "2025-09-17T17:00:00+00:00",
             "expires_at": "2027-09-23T23:59:59+00:00",
@@ -86,9 +86,9 @@
                 3
             ],
             "experiments": {
-                "rollout": "2025-09_final_fantasy_xvi_quest",
-                "targeting": "2025-09_final_fantasy_xvi_quest_targeting",
-                "preview": "2025-09_final_fantasy_xvi_quest_preview"
+                "rollout": "2022-09_final_fantasy_xvi_quest",
+                "targeting": "2021-09_final_fantasy_xvi_quest_targeting",
+                "preview": "2020-09_final_fantasy_xvi_quest_preview"
             },
             "application": {
                 "link": "https://www.finalfantasyxvi.com/?utm_source=discord&utm_medium=quest&utm_campaign=brand",
