@@ -75,6 +75,82 @@
         "targeted_content": [],
         "preview": false
     },
+      {
+        "id": "123",
+        "config": {
+            "id": "123",
+            "config_version": 2,
+            "starts_at": "2025-09-17T17:00:00+00:00",
+            "expires_at": "2027-09-23T23:59:59+00:00",
+            "features": [
+                3
+            ],
+            "experiments": {
+                "rollout": "2025-09_final_fantasy_xvi_quest",
+                "targeting": "2025-09_final_fantasy_xvi_quest_targeting",
+                "preview": "2025-09_final_fantasy_xvi_quest_preview"
+            },
+            "application": {
+                "link": "https://www.finalfantasyxvi.com/?utm_source=discord&utm_medium=quest&utm_campaign=brand",
+                "id": "1283180127655559310",
+                "name": "FINAL FANTASY XVI"
+            },
+            "assets": {
+                "hero": "hero.webm",
+                "hero_video": null,
+                "quest_bar_hero": "quest_bar_hero.webm",
+                "quest_bar_hero_video": null,
+                "game_tile": "game_tile.svg",
+                "logotype": "game_logotype_v2.svg"
+            },
+            "colors": {
+                "primary": "#f5c95e",
+                "secondary": "#000000"
+            },
+            "messages": {
+                "quest_name": "FFXVI",
+                "game_title": "FFXVI (Demo available)",
+                "game_publisher": "Square Enix"
+            },
+            "task_config": {
+                "type": 1,
+                "join_operator": "or",
+                "tasks": {
+                    "PLAY_ON_DESKTOP": {
+                        "event_name": "PLAY_ON_DESKTOP",
+                        "target": 900,
+                        "external_ids": []
+                    }
+                }
+            },
+            "rewards_config": {
+                "assignment_method": 1,
+                "rewards": [
+                    {
+                        "type": 3,
+                        "sku_id": "1280648686736638003",
+                        "asset": "reward_with_background.mp4",
+                        "asset_video": null,
+                        "messages": {
+                            "name": "Torgal Puppy Avatar Decoration",
+                            "name_with_article": "a Torgal Puppy Avatar Decoration",
+                            "redemption_instructions_by_platform": {
+                                "0": "This collectible can be redeemed on Discord! Go to your Gift Inventory to redeem and equip."
+                            }
+                        },
+                        "expires_at": "2024-11-23T23:59:59+00:00"
+                    }
+                ],
+                "rewards_expire_at": "2024-10-23T23:59:59+00:00",
+                "platforms": [
+                    0
+                ]
+            }
+        },
+        "user_status": null,
+        "targeted_content": [],
+        "preview": false
+    },
     {
         "id": "1280648686749352006",
         "config": {
