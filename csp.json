@@ -244,7 +244,8 @@
             "https://*.website-files.com",
             "https://cdn.discordapp.com/assets/",
             "https://cdn.discordapp.com/promotions/premium-marketing/",
-            "https://uploads-ssl.webflow.com"
+            "https://uploads-ssl.webflow.com",
+            "https://example.com",
         ],
         "frame-src": [
             "https://*.hcaptcha.com",
